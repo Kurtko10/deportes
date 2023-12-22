@@ -22,7 +22,7 @@ table{
 
 /* Estilo para las filas impares */
 tbody tr:nth-child(even) {
-    background-color: #2e6c4e;
+    background-color: #4ac765;
 }
 tbody tr:nth-child(odd) {
     background-color: #52c98f;
