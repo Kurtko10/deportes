@@ -1,0 +1,33 @@
+thead tr th{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(2, 64, 39);
+    color: #52c98f;
+    font-weight: bold;
+    border: 1.5px outset rgb(0, 234, 255);
+}
+
+
+table {
+    border: 5px  outset  #e1dcdc;
+    width: 50%;
+    border-spacing: 0px;
+    font-size: 1.5em;
+}
+table{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+/* Estilo para las filas impares */
+tbody tr:nth-child(even) {
+    background-color: #2e6c4e;
+}
+tbody tr:nth-child(odd) {
+    background-color: #52c98f;
+}
+ td{
+    text-align: left;
+    border: 1.5px outset rgb(0, 234, 255);
+}
