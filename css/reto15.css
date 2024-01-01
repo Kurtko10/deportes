@@ -1,0 +1,9 @@
+div{
+    margin-left: 5%;
+}
+div > p {
+    margin: 0;
+}
+ol{
+    margin-top: 0;
+}
