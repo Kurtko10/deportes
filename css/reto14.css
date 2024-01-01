@@ -1,0 +1,25 @@
+body{
+    background-image: url('../img/penguins-295133_1280.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+}
+table {
+    border: 2px outset rgba(0, 0, 0, 0.839);
+    width: 70%;
+    text-align: center;  
+}
+th{
+    background-color: antiquewhite;
+}
+td{
+    background-color: rgb(255, 196, 119);
+}

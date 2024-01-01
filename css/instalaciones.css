@@ -14,13 +14,16 @@ table {
     height: auto;
     margin-left: 25%;
 }
-tbody tr:nth-child(even) {
+tbody tr {
     background-color: #4ac765;
 }
-tbody tr:nth-child(odd) {
-    background-color: #52c98f;
+tbody tr:last-child {
+    background-color: #3da78c;
 }
- td{
+td{
     text-align: left;
     border: 1.5px outset rgb(0, 234, 255);
+}
+td:nth-child(2) {
+    text-align: center;
 }
